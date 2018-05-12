@@ -16,8 +16,8 @@ type TimedWaitGroup struct {
 	timedout  chan struct{}
 }
 
-// NewTimedWaitGroup constructs a new timed wait group
-// and begins counting the timeout
+// NewTimedWaitGroup constructs a new timed wait group and starts the
+// timeout counter. Target and timeout arguments must both be bigger 0
 func NewTimedWaitGroup(target int, timeout time.Duration) *TimedWaitGroup {
 	if target < 1 {
 		panic(fmt.Errorf("Invalid progress target: %d", target))
