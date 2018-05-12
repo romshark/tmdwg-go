@@ -1,3 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Report Card](https://goreportcard.com/badge/github.com/qbeon/tmdwg-go)](https://goreportcard.com/report/github.com/qbeon/tmdwg-go)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/romshark)
+
 # Timed WaitGroup for Go
 
 [tmdwg-go](https://github.com/qbeon/tmdwg-go) provides a **timed wait group** implementation similar to **[sync.WaitGroup](https://golang.org/pkg/sync/#WaitGroup)**.
