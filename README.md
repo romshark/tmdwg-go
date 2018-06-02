@@ -1,5 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/qbeon/tmdwg-go.svg?branch=master)](https://travis-ci.org/qbeon/tmdwg-go)
+[![Coverage Status](https://coveralls.io/repos/github/qbeon/tmdwg-go/badge.svg?branch=master)](https://coveralls.io/github/qbeon/tmdwg-go?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/qbeon/tmdwg-go)](https://goreportcard.com/report/github.com/qbeon/tmdwg-go)
+[![GoDoc](https://godoc.org/github.com/zalando/skipper?status.svg)](https://godoc.org/github.com/qbeon/tmdwg-go)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/romshark)
 
 # Timed WaitGroup for Go
