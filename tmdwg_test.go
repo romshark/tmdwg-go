@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qbeon/tmdwg-go"
+	"github.com/romshark/tmdwg-go"
 )
 
 // TestInvalidTarget tests the constructor with an invalid target

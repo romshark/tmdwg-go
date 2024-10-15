@@ -20,7 +20,7 @@ type TimedWaitGroup struct {
 // timeout counter. Target and timeout arguments must both be bigger 0
 func NewTimedWaitGroup(target int, timeout time.Duration) *TimedWaitGroup {
 	if target < 1 {
-		panic(fmt.Errorf("Invalid progress target: %d", target))
+		panic(fmt.Errorf("invalid progress target: %d", target))
 	}
 
 	newTask := &TimedWaitGroup{
@@ -35,7 +35,7 @@ func NewTimedWaitGroup(target int, timeout time.Duration) *TimedWaitGroup {
 	time.AfterFunc(timeout, func() {
 		newTask.lock.Lock()
 		newTask.err = fmt.Errorf(
-			"Timed out after %s at the progress: %d of %d",
+			"timed out after %s at the progress: %d of %d",
 			timeout,
 			newTask.current,
 			target,
