@@ -1,3 +1,3 @@
 module github.com/romshark/tmdwg-go
 
-go 1.22
+go 1.23
